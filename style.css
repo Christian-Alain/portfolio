@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0%;
+}
+
+.container{
+    flex-direction: column;
+    width: 1000px;
+    margin: auto;
+    padding: 0;
+    margin: 0;
+    
+}
+/* block du haut */
+
+.container .top{
+    display: flex;
+    width: 100%;
+}
+#logo{
+    font-weight: bold;
+    position: absolute;
+    top: 3%;
+    left: 15%;
+}
+.menu{
+    display: flex;
+    text-align: center;
+    left: 28%;
+    position: absolute;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.top .btn{
+    color: black;
+    background: white;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    top: 3%;
+    left: 80%;
+    position: absolute;
+}
+
+/* block du bas */
+
+.container .bottom{
+  /* flex-direction: column;*/
+}
+
+.bottom .text{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    text-align: center;
+    line-height: 5px;
+    font-size: 20px;
+    
+}
+.bottom .text h1{
+    text-transform:capitalize;
+}
+.bottom .text, .btn_btn{
+   /* z-index: 10;*/
+}
+.bottom .btn_btn{
+    background: rgb(73, 100, 66);
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    top: 33%;
+    left: 45%;
+    color: white;
+    position: absolute;
+}
+.bottom .image{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    /*z-index: 1;*/
+    
+}
